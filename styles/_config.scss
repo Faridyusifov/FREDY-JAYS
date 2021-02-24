@@ -1,0 +1,121 @@
+$mainColor:#FFFFF1;
+$bg-color:#181818;
+
+$color1:#373737;
+$color2:#878787;
+
+@mixin displayFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin header {
+    header{
+        @include displayFlex;
+        
+        height: 150px;
+        .div-menu{
+    
+            .menu{
+                @include displayFlex;
+                margin: 50px 0 0 50px;
+        
+                a{
+                    text-decoration: none;
+        
+                    & :hover{
+                        color:#E1E6E1 ;
+                    }
+                }
+                .menu-items{
+                    list-style: none;
+                    color: $mainColor;
+                    margin: 10px;
+                    font-weight: 400;
+                    font-size: 19px;
+                }
+            }
+        
+        
+        }
+
+        .name{
+            margin: 50px 0;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                
+        
+                & :hover{
+                    font-weight: 400;
+                    transition: 0.4s;
+                }
+            }
+        }
+        
+        .social-media{
+            margin: 50px 50px 0 0;
+        
+            a{
+                padding: 20px;
+        
+                &:nth-child(1){
+                    padding-right: 0;
+                }
+                
+            }
+            img{
+                background-color: $mainColor;
+                height: 24px;
+                width: 24px;
+                border-radius: 10px;
+                border-color: $bg-color;
+            }
+        }
+    }
+}
+
+@mixin footer {
+    footer{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .footer-social-media{
+    
+            margin: 40px 0;
+            a{
+                padding: 20px;
+                
+        
+                &:nth-child(1){
+                    padding-right: 0;
+                }
+                
+            }
+            img{
+                background-color: $mainColor;
+                height: 24px;
+                width: 24px;
+                border-radius: 10px;
+                border-color: $bg-color;
+            }
+        }
+    
+        .footer-text{
+            margin-bottom: 50px;
+            p{
+                color: #918F91;
+            }
+        }
+    }
+}
+
+
