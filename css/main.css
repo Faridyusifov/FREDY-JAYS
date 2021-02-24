@@ -215,20 +215,12 @@ section footer {
   header .div-menu .menu {
     margin: 50px 0 0 30px; }
     header .div-menu .menu .menu-items {
-      list-style: none;
-      color: #FFFFF1;
       margin: 10px;
       font-weight: 600;
       font-size: 15px; }
   header .name {
     margin: 50px;
     text-align: center; }
-    header .name a {
-      text-decoration: none;
-      font-weight: 500; }
-      header .name a :hover {
-        font-weight: 400;
-        transition: 0.4s; }
   header .social-media {
     margin-right: 20px; }
   .main-photos img {
@@ -265,11 +257,8 @@ section footer {
     header .social-media a {
       padding: 3px; }
     header .social-media img {
-      background-color: #FFFFF1;
       height: 24px;
-      width: 24px;
-      border-radius: 10px;
-      border-color: #181818; }
+      width: 24px; }
   main .main-photo img {
     width: 50%;
     height: auto; }
@@ -289,15 +278,12 @@ section footer {
     main .div-form .form input:nth-child(3) {
       margin-top: 30px;
       width: 90px;
-      padding: 0;
-      background-color: white;
-      color: black;
-      border-radius: 30px; } }
+      padding: 0; } }
 
 @media screen and (max-width: 500px) {
   main .main-photos img {
-    width: 30%;
-    height: 140px;
+    width: 70%;
+    height: 240px;
     margin-bottom: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

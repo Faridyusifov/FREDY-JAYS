@@ -22,8 +22,6 @@
                 
                 margin: 50px 0 0 30px;
                 .menu-items{
-                    list-style: none;
-                    color: $mainColor;
                     margin: 10px;
                     font-weight: 600;
                     font-size: 15px;
@@ -36,17 +34,6 @@
         .name{
             margin: 50px;
             text-align: center;
-            
-            a{
-                text-decoration: none;
-                font-weight: 500;
-                
-        
-                & :hover{
-                    font-weight: 400;
-                    transition: 0.4s;
-                }
-            }
         }
 
         .social-media{
@@ -115,11 +102,8 @@
                 
             }
             img{
-                background-color: $mainColor;
                 height: 24px;
                 width: 24px;
-                border-radius: 10px;
-                border-color: $bg-color;
             }
         }
     }
@@ -156,9 +140,6 @@
                         margin-top: 30px;
                         width: 90px;
                         padding: 0;
-                        background-color: white;
-                        color: black;
-                        border-radius: 30px;
                   }  }
             }
 
@@ -170,8 +151,8 @@
     main{
         .main-photos{
             img{
-                width: 30%;
-                height: 140px;
+                width: 70%;
+                height: 240px;
                 margin-bottom: 10px;
             }
         }
